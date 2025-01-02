@@ -12,6 +12,7 @@ html, body{
     width: 100%;
     height: 100%;
     font-family: "Mona Sans", serif;
+    background-color: #fff;
 }
 
 
@@ -24,6 +25,7 @@ header{
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 22px;
 }
 
 header ul{
@@ -35,23 +37,28 @@ header ul{
 header ul li a{
     text-decoration: none;
     color: #000;
-    font-weight: 600;
+    font-weight: 550;
     cursor: pointer;
 }
 
+header ul li a:hover{
+    background-color: #ffffff9e;
+}
 header .logo{
     height: 50%;
     width: 6%;
     cursor: pointer;
-
+    margin-right: 70px;
 }
+
 
 
 header .btn-group{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 16px;
+    margin-left: auto;
 }
 
 header .btn-group button{
@@ -61,7 +68,22 @@ header .btn-group button{
     background: transparent;
     border: none;
     font-weight: 600;
+    cursor: pointer;
+    
+    
+    /* padding: 0.5 */
 
 }
 
-header .btn-group 
+header .btn-group .Login{
+    
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px
+}
+
+header .btn-group .Login:hover{
+    background-color: #6d6060eb
+    
+}
