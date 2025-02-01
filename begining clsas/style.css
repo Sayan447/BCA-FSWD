@@ -1,0 +1,70 @@
+/* First class for css */
+
+/* Internal Css */
+/* external Css */
+/* Inline Css */
+
+
+
+/* color: content of the webpage */
+/* font-family */
+/* color / bgclr */
+/* font-size */
+/* font height */
+/* line-height */
+/* text transform -- */
+/* padding */
+/* margin */
+/* border */
+/* display --- */
+/* position -- */
+/* background ----*/
+
+/* flex , grid */
+
+/* pseudo element */
+/* pseudo classes */
+/* CDN - content delivery Network */
+
+
+/* units :- px, % , vw , vh, em ,rem  */
+/* max width & min width */
+body{
+    background-color: black;
+    color: white;
+}
+
+.red{
+    background-color: rgb(14, 216, 149);
+    color: rgb(130, 8, 8);
+}
+
+
+
+
+/* boiler plate code for css */
+
+/* 
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}  */
+
+#h2{
+    font-weight: 400;
+    background-color: aquamarine;
+    color: rgb(22, 152, 152);
+    padding: 10px;
+    margin: 10px;
+    border: 2px double white;
+}
+p{
+    line-height: 0.8;
+}

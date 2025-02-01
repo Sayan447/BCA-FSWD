@@ -1,0 +1,65 @@
+/* background color through css */
+/* #container-h1{
+    background-color: aqua;
+} */
+/* but we want to do this by js */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.class-container{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%; 
+}
+
+
+.box{
+    height:100px;
+    width: 100px;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box-1{
+    color: pink;
+
+}
+#box-2{
+    color:orange;
+
+}
+#box-3{
+    color: green;
+
+}
+#box-4{
+    color: blue;
+
+}
+#box-5{
+    color:red;
+
+}
+#box-6{
+    color: violet;
+}

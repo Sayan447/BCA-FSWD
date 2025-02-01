@@ -1,0 +1,106 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    padding: 0;
+    gap: 10px;
+    /* overflow: hidden; */
+    /* grid-template-columns:10vw 20vw 30vw; */
+    /* grid-template-columns:2fr 3fr auto */
+    grid-template-columns: repeat(4, 100px);
+    /* repeat means how many want to repeat, dividing the parent space in 4 piece */
+
+    /* grid-template-rows: 200px 200px 200px; */
+
+    grid-template-rows: repeat(4 , 100px);
+
+    /* grid-template-areas: "h h h h"
+                        "lsb m m rsb"
+                        "lsb m m rsb"
+                        "f f f f"; */
+
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.box{
+    border: 2px solid black;
+    padding: 12px;
+    background-color: #8cbf00;
+
+}
+
+
+
+#box-5{
+    /*
+    background-color: antiquewhite;
+    grid-area: m; */
+    /* justify-self: center;
+    align-self: end; upword */
+    /* align self works only Y-axis */
+
+
+
+    /* grid-column-start: 1;
+    grid-column-end: 5; */
+
+    /* short hand property for grid-column-start and grid-column-row is grid-column */
+     /* grid-column: 1 / 4; */
+     /* short hand starting from rowstart/colstart/rowend/colend */
+     /* grid-area: 2/2/4/4; */
+
+ 
+    /* grid-row-start: 1;
+    grid-row-end: 3;  */
+
+    /* grid-row: 1 / 4; */
+
+
+}  
+
+
+/* grid work in both way x and y axis */
+
+/* property */
+/* gap */
+
+
+#box-1{
+    /* background-color: antiquewhite; */
+    /* grid-area: 1 / 1 / 2 / 5; */
+    /* grid-area: h; */
+}  
+
+#box-2{
+    /* background-color: chocolate; */
+    /* grid-area: 2 / 1 / 4 / 2; */
+    /* grid-area: lsb; */
+}
+
+#box-3{
+    /* background-color: blue; */
+    /* grid-area: 2 / 4 / 4 / 5; */
+    /* grid-area: rsb; */
+
+}
+
+#box-4{
+    /* background-color:blueviolet; */
+    /* grid-area: 4 / 1 / 5 / 5; */
+    /* grid-area: f; */
+
+} 
+
+

@@ -1,0 +1,17 @@
+1995 brenden Eich -> 10days  building of js while working as -> netscape
+
+original Name: Mocha -> Livescript -> javascript
+
+
+ECMAscript -> 1996
+1997 -> ES1 -> 1st standarization
+1999 -> ES3 -> 3rd
+2009 -> ES5 ->
+2015 -> ES6 -> arrow function , templet Literals
+2016 -> ES7
+
+
+
+
+What is Engine->
+engine is a software program which is responsible for running js in our browser
