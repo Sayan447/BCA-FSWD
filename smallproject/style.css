@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 5px;
+    background-image: linear-gradient(to right,red,blue);
+    font-weight: 700;
+    font-size: larger;
+    font-style: oblique;
+}
+
+
+#btn{
+    margin: 10px;
+    padding: 3px 2px 3px 2px;
+    font-style: oblique;
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom , green, yellow);
+}
