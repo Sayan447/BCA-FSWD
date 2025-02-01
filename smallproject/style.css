@@ -33,5 +33,14 @@ html , body{
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 800;
+    transition: all ease 0.5s;
     background-image: linear-gradient(to bottom , green, yellow);
+}
+
+#btn:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+#btn:active{
+    scale: 0.9;
 }
