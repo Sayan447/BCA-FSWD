@@ -12,8 +12,9 @@ html , body{
 
 .container{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
     gap: 5px;
@@ -21,6 +22,7 @@ html , body{
     font-weight: 700;
     font-size: larger;
     font-style: oblique;
+    
 }
 
 
@@ -43,4 +45,22 @@ html , body{
 
 #btn:active{
     scale: 0.9;
+}
+
+
+.second-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    /* background-color: aqua; */
+    padding: 2%;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow:inset 5px 5px 5px 4px rgb(49, 40, 40), inset -20px -20px 40px #ffffffa1;
+}
+
+.text-color{
+    color: white;
 }
