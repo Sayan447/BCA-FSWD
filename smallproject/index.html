@@ -9,20 +9,21 @@
   <body>
     <script defer src="script.js"></script>
 
-    <div oncontextmenu="return false" class="container">
+    <!-- oncontextmenu="return false" for desible the right click -->
+    <div  class="container">
 
       <div class="second-container">
         <div>
           <label class="text-color" for="code">Pincode:</label>
-          <input type="text" name="code" />
+          <input type="text" id="code" name="code" />
         </div>
   
         <div>
-          <button class="text-color" id="btn">Click Here</button>
+          <button onclick="SearchPincode()" class="text-color" id="btn">Click Here</button>
         </div>
   
         <div>
-          <label class="text-color" for="response">Generate Response:</label>
+          <label  class="text-color" for="response">Generate Response:</label>
           <textarea
             placeholder="Generate response..."
             name="response"

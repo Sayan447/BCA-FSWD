@@ -41,6 +41,7 @@ html , body{
 
 #btn:hover{
     box-shadow: 5px 5px 10px black;
+    color: black;
 }
 
 #btn:active{
@@ -63,4 +64,8 @@ html , body{
 
 .text-color{
     color: white;
+}
+#response{
+    max-height: 100%;
+    max-width: 200px;
 }
