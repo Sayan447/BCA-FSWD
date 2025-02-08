@@ -3,14 +3,23 @@ async function SearchPincode() {
   if (!pin) return alert('Please enter a pincode!');
 
   let response = await fetch(`https://api.postalpincode.in/pincode/${pin}`);
+  
+  // console.log(response);
+  // console.log(typeof(response));
   let data = await response.json();
 
   document.getElementById('response').style.fontWeight='bold'
 
-//   console.log(data);
+console.log(data);
+// console.log(data[0].Status);
+
+
+
   
-  document.getElementById('response').value =
-    data[0].Status === 'Success' ? data[0].PostOffice.map((ele) => 'NAME:-'+ ele.Name + '===>' +'BLOCK:- '+ele.Block).join(', ')
+
+// code for text area where we can show our result
+  document.getElementById('response').innerText =
+    data[0].Status === 'Success' ? data[0].PostOffice.map((ele) => `NAME:-  ${ele.Name} ===>BLOCK:- ${ele.Block}`).join(', ')
       : 'Invalid Pincode!';
 }
 
